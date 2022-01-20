@@ -15,7 +15,7 @@
  pipenv shell
 
 #Step 2 - Install Python dependencies
-pip install -r requirements.txt
+pipenv install -r requirements.txt
 
 #Step 3 - Create SQLite databse, run migrations
 python manage.py makemigrations
